@@ -12,6 +12,42 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in']) {
     <meta name="viewport" content="width=device-width">
     <title>Client Form | CK Creative Co</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        .form-section {
+            margin: 50px;
+        }
+        .form-section form {
+            width: 100%;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        .form-section label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-section input[type="text"],
+        .form-section input[type="email"],
+        .form-section textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .form-section input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .error-list {
+            color: red;
+            margin-bottom: 20px;
+        }
+    </style>
     <!-- Add other CSS files if needed -->
 </head>
 <body>
