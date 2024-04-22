@@ -40,7 +40,7 @@ $customerOrganization = $_SESSION['customer_organization'];
         </nav>
         <div class="header-text">
             <h1>Welcome, <?php echo $customerName; ?></h1>
-            <p>Organization: <?php echo $customerOrganization; ?></p>
+             <h2>Stage 1 is Planning Stage, Stage 2 is Design Phase, Stage 3 is Alteration, Stage 4 is Project Complete</h2>
         </div>
     </section>
 
